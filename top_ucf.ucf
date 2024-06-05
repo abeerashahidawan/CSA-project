@@ -1,0 +1,64 @@
+NET "clk" LOC="V10";
+NET "rst" LOC="T9";
+
+#NET "i_top_cam_start" LOC="V9";
+#NET "o_top_cam_done" LOC="U16";
+
+
+NET "ov7670_pclk" LOC="N10";
+NET ov7670_pclk CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET"btnc_proc_ctrl" LOC="T10";
+
+
+NET "ov7670_d<0>" LOC="K3";
+NET "ov7670_d<1>" LOC="L4";
+NET "ov7670_d<2>" LOC="J1";
+NET "ov7670_d<3>" LOC="K1";
+NET "ov7670_d<4>" LOC="J3";
+NET "ov7670_d<5>" LOC="K2";
+NET "ov7670_d<6>" LOC="V11";
+NET "ov7670_d<7>" LOC="P11";
+
+NET "ov7670_vsync" LOC="V12";
+NET "ov7670_href" LOC="N9";
+NET "ov7670_rst_n" LOC="L3";
+NET "ov7670_pwdn" LOC="K5";
+//NET "o_top_xclk_dummy" LOC="N2";
+NET "ov7670_xclk" LOC="U11";
+
+NET "ov7670_siod" LOC="M10";
+NET "ov7670_sioc" LOC="T12";
+
+#NET "btn" LOC = "T10"; 
+
+NET "vga_vsync" LOC="P7";
+NET "vga_hsync" LOC="N6";
+
+NET "vga_red<3>"  LOC = "N7"   ; # Bank = 1, Signal name = RED2
+NET "vga_red<2>"  LOC = "V7"  ; # Bank = 1, Signal name = RED1
+NET "vga_red<1>"  LOC = "U7"  ; # Bank = 1, Signal name = RED0
+NET "vga_green<3>"  LOC = "V6" ; # Bank = 1, Signal name = GRN2
+NET "vga_green<2>"  LOC = "T6"; # Bank = 1, Signal name = GRN1 
+NET "vga_green<1>"  LOC = "P8"; # Bank = 1, Signal name = GRN0 
+NET "vga_blue<2>"  LOC = "R7" ; # Bank = 1, Signal name = BLU2-
+NET "vga_blue<3>" LOC = "T7";
+
+
+NET "led<0>"         LOC = "U16" ;   #Bank = 2, Pin name = IO_L2P_CMPCLK,                     Sch name = LD0
+NET "led<1>"         LOC = "V16" ;   #Bank = 2, Pin name = IO_L2N_CMPMOSI,                    Sch name = LD1
+NET "led<2>"         LOC = "U15"  ;   #Bank = 2, Pin name = IO_L5P,                            Sch name = LD2
+NET "led<3>"         LOC = "V15"  ;   #Bank = 2, Pin name = IO_L5N,                            Sch name = LD3
+NET "led<4>"         LOC = "M11"  ;   #Bank = 2, Pin name = IO_L15P,                           Sch name = LD4
+NET "led<5>"         LOC = "N11"  ;   #Bank = 2, Pin name = IO_L15N,                           Sch name = LD5
+NET "led<6>"         LOC = "R11"  ;   #Bank = 2, Pin name = IO_L16P,                           Sch name = LD6
+NET "led<7>"         LOC = "T11"  ;   #Bank = 2, Pin name = IO_L16N_VREF,                      Sch name = LD7
+
+#NET "vgaRed<0>"      LOC = "U7"  | IOSTANDARD = "LVCMOS33";   # Bank = 2, Pin name = IO_L43P,                          Sch name = RED0
+#NET "vgaRed<1>"      LOC = "V7"  | IOSTANDARD = "LVCMOS33";   # Bank = 2, Pin name = IO_L43N,                          Sch name = RED1
+#NET "vgaRed<2>"      LOC = "N7"  | IOSTANDARD = "LVCMOS33";   # Bank = 2, Pin name = IO_L44P,                          Sch name = RED2
+#NET "vgaGreen<0>"    LOC = "P8"  | IOSTANDARD = "LVCMOS33";   # Bank = 2, Pin name = IO_L44N,                          Sch name = GRN0
+#NET "vgaGreen<1>"    LOC = "T6"  | IOSTANDARD = "LVCMOS33";   # Bank = 2, Pin name = IO_L45P,                          Sch name = GRN1
+#NET "vgaGreen<2>"    LOC = "V6"  | IOSTANDARD = "LVCMOS33";   # Bank = 2, Pin name = IO_L45N,                          Sch name = GRN2
+#NET "vgaBlue<1>"     LOC = "R7"  | IOSTANDARD = "LVCMOS33";   # Bank = 2, Pin name = IO_L46P,                          Sch name = BLU1
+#NET "vgaBlue<2>"     LOC = "T7"  | IOSTANDARD = "LVCMOS33";   # Bank = 2, Pin name = IO_L46N,                          Sch name = BLU2

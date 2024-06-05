@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Sat Jun 01 12:10:57 2024
+
+drc -z top_ov7670.ncd top_ov7670.pcf
+
+DRC detected 0 errors and 0 warnings.

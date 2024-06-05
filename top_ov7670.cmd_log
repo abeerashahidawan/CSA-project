@@ -1,0 +1,129 @@
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_ucf.ucf -p xc6slx16-csg324-3 top_ov7670.ngc top_ov7670.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_ov7670_map.ncd top_ov7670.ngd top_ov7670.pcf 
+par -w -intstyle ise -ol high -mt off top_ov7670_map.ncd top_ov7670.ncd top_ov7670.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_ov7670.twx top_ov7670.ncd -o top_ov7670.twr top_ov7670.pcf -ucf top_ucf.ucf 
+bitgen -intstyle ise -f top_ov7670.ut top_ov7670.ncd 
+xst -intstyle ise -ifn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.xst" -ofn "E:/UPDATED_NEXUS4_CAMERA/top_ov7670.syr" 

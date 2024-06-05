@@ -1,0 +1,1151 @@
+Release 14.5 - xst P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Reading design: top_ov7670.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top_ov7670.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top_ov7670"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : top_ov7670
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" into library work
+Parsing module <top_ov7670>.
+INFO:HDLCompiler:693 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 114. parameter declaration becomes local in top_ov7670 with formal parameter declaration list
+INFO:HDLCompiler:693 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 115. parameter declaration becomes local in top_ov7670 with formal parameter declaration list
+Parsing module <vga_sync>.
+Parsing module <vga_display>.
+Parsing module <sccb_master>.
+INFO:HDLCompiler:693 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 847. parameter declaration becomes local in sccb_master with formal parameter declaration list
+Parsing module <pll>.
+Parsing module <ov7670_top_ctrl>.
+Parsing module <ov7670_ctrl_reg>.
+Parsing module <ov7670_capture>.
+INFO:HDLCompiler:693 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2590. parameter declaration becomes local in ov7670_capture with formal parameter declaration list
+Parsing module <frame_buffer>.
+Parsing module <color_proc>.
+INFO:HDLCompiler:693 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2930. parameter declaration becomes local in color_proc with formal parameter declaration list
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 185: Port new_centroid is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 217: Port dataout_test is not connected to this instance
+
+Elaborating module <top_ov7670>.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 103: Result of 3-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <vga_sync>.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 363: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 408: Result of 11-bit expression is truncated to fit in 10-bit target.
+
+Elaborating module <vga_display>.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 565: Result of 16-bit expression is truncated to fit in 15-bit target.
+
+Elaborating module <frame_buffer>.
+
+Elaborating module <color_proc>.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 3125: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 3329: Result of 15-bit expression is truncated to fit in 12-bit target.
+
+Elaborating module <ov7670_capture>.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2615: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2618: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:1127 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2665: Assignment to pclk_fall ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2666: Assignment to pclk_rise_prev ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2691: Result of 16-bit expression is truncated to fit in 15-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2692: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2700: Result of 16-bit expression is truncated to fit in 15-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2701: Result of 16-bit expression is truncated to fit in 15-bit target.
+WARNING:HDLCompiler:1127 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2671: Assignment to cnt_line_totpxls ignored, since the identifier is never used
+WARNING:HDLCompiler:1016 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 1274: Port finish_tx is not connected to this instance
+
+Elaborating module <ov7670_top_ctrl>.
+
+Elaborating module <sccb_master>.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 903: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 921: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 941: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 958: Result of 3-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <ov7670_ctrl_reg>.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2347: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2379: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2489: Result of 25-bit expression is truncated to fit in 24-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <top_ov7670>.
+    Related source file is "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v".
+        c_img_cols = 160
+        c_img_rows = 120
+        c_img_pxls = 19200
+        c_nb_img_pxls = 15
+        c_nb_buf_red = 4
+        c_nb_buf_green = 4
+        c_nb_buf_blue = 4
+        c_nb_buf = 12
+INFO:Xst:3210 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" line 185: Output port <new_centroid> of the instance <img_proc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" line 217: Output port <dataout_test> of the instance <capture> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" line 217: Output port <led_test> of the instance <capture> is unconnected or connected to loadless signal.
+    Found 2-bit register for signal <cntY>.
+    Found 2-bit adder for signal <cntY[1]_GND_1_o_add_0_OUT> created at line 103.
+    Found 1-bit tristate buffer for signal <ov7670_siod> created at line 252
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+	inferred   1 Tristate(s).
+Unit <top_ov7670> synthesized.
+
+Synthesizing Unit <vga_sync>.
+    Related source file is "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v".
+        c_pxl_visible = 640
+        c_pxl_fporch = 16
+        c_pxl_2_fporch = 656
+        c_pxl_synch = 96
+        c_pxl_2_synch = 752
+        c_pxl_total = 800
+        c_pxl_bporch = 48
+        c_line_visible = 480
+        c_line_fporch = 9
+        c_line_2_fporch = 489
+        c_line_synch = 2
+        c_line_2_synch = 491
+        c_line_total = 520
+        c_line_bporch = 29
+        c_nb_pxls = 10
+        c_nb_lines = 10
+        c_nb_red = 4
+        c_nb_green = 4
+        c_nb_blue = 4
+        c_freq_vga = 27'sb001011111010111100001000000
+        c_synch_act = 0
+    Found 10-bit register for signal <cnt_pxl>.
+    Found 10-bit register for signal <cnt_line>.
+    Found 1-bit register for signal <cnt_clk>.
+    Found 10-bit adder for signal <cnt_pxl[9]_GND_2_o_add_2_OUT> created at line 363.
+    Found 10-bit adder for signal <cnt_line[9]_GND_2_o_add_10_OUT> created at line 408.
+    Found 10-bit comparator greater for signal <cnt_pxl[9]_PWR_2_o_LessThan_8_o> created at line 380
+    Found 10-bit comparator greater for signal <cnt_pxl[9]_PWR_2_o_LessThan_9_o> created at line 384
+    Found 10-bit comparator lessequal for signal <cnt_pxl[9]_PWR_2_o_LessThan_10_o> created at line 388
+    Found 10-bit comparator greater for signal <cnt_line[9]_GND_2_o_LessThan_16_o> created at line 423
+    Found 10-bit comparator greater for signal <cnt_line[9]_GND_2_o_LessThan_17_o> created at line 427
+    Found 10-bit comparator lessequal for signal <cnt_line[9]_GND_2_o_LessThan_18_o> created at line 431
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred  10 Multiplexer(s).
+Unit <vga_sync> synthesized.
+
+Synthesizing Unit <vga_display>.
+    Related source file is "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v".
+        c_img_cols = 160
+        c_img_rows = 120
+        c_img_pxls = 19200
+        c_nb_img_pxls = 15
+        c_nb_buf_red = 4
+        c_nb_buf_green = 4
+        c_nb_buf_blue = 4
+        c_nb_buf = 12
+WARNING:Xst:647 - Input <hsync> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <vsync> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 15-bit register for signal <frame_addr>.
+    Found 15-bit adder for signal <frame_addr[14]_GND_3_o_add_7_OUT> created at line 565.
+    Found 3-bit subtractor for signal <GND_3_o_GND_3_o_sub_103_OUT<2:0>> created at line 705.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_3_o_char_rgbmode[7]_Mux_96_o> created at line 693.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_3_o_char_testmode[7]_Mux_103_o> created at line 705.
+    Found 10-bit comparator greater for signal <row[9]_GND_3_o_LessThan_6_o> created at line 561
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_36_o> created at line 562
+    Found 10-bit comparator lessequal for signal <n0018> created at line 595
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_19_o> created at line 595
+    Found 3-bit comparator lessequal for signal <n0024> created at line 605
+    Found 10-bit comparator greater for signal <GND_3_o_row[9]_LessThan_25_o> created at line 611
+    Found 10-bit comparator greater for signal <row[9]_GND_3_o_LessThan_26_o> created at line 611
+    Found 10-bit comparator greater for signal <col[9]_PWR_3_o_LessThan_27_o> created at line 611
+    Found 10-bit comparator greater for signal <GND_3_o_row[9]_LessThan_34_o> created at line 631
+    Found 10-bit comparator greater for signal <row[9]_GND_3_o_LessThan_35_o> created at line 631
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_37_o> created at line 633
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_41_o> created at line 640
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_45_o> created at line 647
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_49_o> created at line 654
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_53_o> created at line 661
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_57_o> created at line 668
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_61_o> created at line 675
+    Found 10-bit comparator greater for signal <GND_3_o_row[9]_LessThan_92_o> created at line 691
+    Found 10-bit comparator greater for signal <row[9]_GND_3_o_LessThan_93_o> created at line 691
+    Found 10-bit comparator greater for signal <GND_3_o_col[9]_LessThan_94_o> created at line 692
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_95_o> created at line 692
+    Found 10-bit comparator greater for signal <GND_3_o_col[9]_LessThan_101_o> created at line 704
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_102_o> created at line 704
+    Found 10-bit comparator greater for signal <GND_3_o_col[9]_LessThan_108_o> created at line 716
+    Found 10-bit comparator greater for signal <col[9]_GND_3_o_LessThan_109_o> created at line 716
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  15 D-type flip-flop(s).
+	inferred  25 Comparator(s).
+	inferred  90 Multiplexer(s).
+Unit <vga_display> synthesized.
+
+Synthesizing Unit <frame_buffer>.
+    Related source file is "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v".
+        c_img_cols = 160
+        c_img_rows = 120
+        c_img_pxls = 19200
+        c_nb_img_pxls = 15
+        c_nb_buf_red = 4
+        c_nb_buf_green = 4
+        c_nb_buf_blue = 4
+        c_nb_buf = 12
+WARNING:Xst:3035 - Index value(s) does not match array range for signal <ram>, simulation mismatch.
+    Found 19200x12-bit dual-port RAM <Mram_ram> for signal <ram>.
+    Found 12-bit register for signal <doutb>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  12 D-type flip-flop(s).
+Unit <frame_buffer> synthesized.
+
+Synthesizing Unit <color_proc>.
+    Related source file is "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v".
+        c_img_cols = 160
+        c_img_rows = 120
+        c_img_pxls = 19200
+        c_nb_img_pxls = 15
+        c_nb_cols = 8
+        c_nb_rows = 7
+        c_inframe_cols = 128
+        c_inframe_rows = 104
+        c_inframe_pxls = 13312
+        c_nb_inframe_pxls = 14
+        c_hist_bins = 8
+        c_nb_hist_bins = 3
+        c_nb_hist_val = 11
+        c_nb_centroid = 8
+        c_nb_prox = 3
+        c_min_colorpixels = 128
+        c_nb_buf_red = 4
+        c_nb_buf_green = 4
+        c_nb_buf_blue = 4
+        c_nb_buf = 12
+        c_msb_blue = 3
+        c_msb_red = 11
+        c_msb_green = 7
+    Found 15-bit register for signal <cnt_pxl_proc>.
+    Found 15-bit register for signal <cnt_pxl>.
+    Found 7-bit register for signal <row_num>.
+    Found 8-bit register for signal <col>.
+    Found 8-bit register for signal <col_rg>.
+    Found 8-bit register for signal <centroid>.
+    Found 88-bit register for signal <n0173[87:0]>.
+    Found 14-bit register for signal <colorpxls>.
+    Found 13-bit register for signal <colorpxls_left>.
+    Found 13-bit register for signal <colorpxls_rght>.
+    Found 13-bit register for signal <colorpxls_bin012>.
+    Found 13-bit register for signal <colorpxls_bin567>.
+    Found 13-bit register for signal <colorpxls_bin01>.
+    Found 13-bit register for signal <colorpxls_bin67>.
+    Found 3-bit register for signal <proximity>.
+    Found 3-bit register for signal <rgbfilter>.
+    Found 1-bit register for signal <proc_we>.
+    Found 1-bit register for signal <new_centroid>.
+    Found 1-bit register for signal <proc_ctrl_rg1>.
+    Found 1-bit register for signal <proc_ctrl_rg2>.
+    Found finite state machine <FSM_0> for signal <rgbfilter>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 24                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit subtractor for signal <col_inframe> created at line 3068.
+    Found 13-bit subtractor for signal <colorpxls_left[12]_colorpxls_rght[12]_sub_95_OUT> created at line 3174.
+    Found 13-bit subtractor for signal <colorpxls_rght[12]_colorpxls_left[12]_sub_96_OUT> created at line 3175.
+    Found 15-bit adder for signal <cnt_pxl[14]_GND_5_o_add_0_OUT> created at line 3010.
+    Found 7-bit adder for signal <row_num[6]_GND_5_o_add_8_OUT> created at line 3032.
+    Found 8-bit adder for signal <col[7]_GND_5_o_add_12_OUT> created at line 3046.
+    Found 11-bit adder for signal <hist_bin[2]_GND_5_o_add_25_OUT> created at line 3124.
+    Found 14-bit adder for signal <colorpxls[13]_GND_5_o_add_35_OUT> created at line 3125.
+    Found 13-bit adder for signal <colorpxls_bin01[12]_GND_5_o_add_41_OUT> created at line 3139.
+    Found 13-bit adder for signal <colorpxls_bin012[12]_GND_5_o_add_43_OUT> created at line 3143.
+    Found 13-bit adder for signal <colorpxls_left[12]_GND_5_o_add_44_OUT> created at line 3146.
+    Found 13-bit adder for signal <colorpxls_rght[12]_GND_5_o_add_51_OUT> created at line 3161.
+    Found 13-bit adder for signal <colorpxls_bin567[12]_GND_5_o_add_52_OUT> created at line 3162.
+    Found 13-bit adder for signal <colorpxls_bin67[12]_GND_5_o_add_53_OUT> created at line 3163.
+    Found 11-bit 8-to-1 multiplexer for signal <n0299> created at line 3124.
+    Found 1-bit 8-to-1 multiplexer for signal <color_threshold> created at line 3335.
+    Found 8-bit comparator lessequal for signal <n0017> created at line 3062
+    Found 8-bit comparator lessequal for signal <n0019> created at line 3062
+    Found 7-bit comparator lessequal for signal <n0022> created at line 3063
+    Found 7-bit comparator lessequal for signal <n0025> created at line 3063
+    Found 13-bit comparator greater for signal <left> created at line 3173
+    Found 14-bit comparator lessequal for signal <n0109> created at line 3188
+    Found 13-bit comparator greater for signal <absdif_lft_rght[12]_colorpxls_div[12]_LessThan_101_o> created at line 3190
+    Found 13-bit comparator lessequal for signal <n0112> created at line 3195
+    Found 13-bit comparator lessequal for signal <n0114> created at line 3197
+    Found 13-bit comparator lessequal for signal <n0116> created at line 3199
+    Found 13-bit comparator greater for signal <colorpxls_half[12]_colorpxls_left[12]_LessThan_105_o> created at line 3201
+    Found 13-bit comparator lessequal for signal <n0123> created at line 3206
+    Found 13-bit comparator lessequal for signal <n0125> created at line 3208
+    Found 13-bit comparator lessequal for signal <n0127> created at line 3210
+    Found 13-bit comparator greater for signal <colorpxls_half[12]_colorpxls_rght[12]_LessThan_113_o> created at line 3212
+    Summary:
+	inferred  13 Adder/Subtractor(s).
+	inferred 248 D-type flip-flop(s).
+	inferred  15 Comparator(s).
+	inferred  38 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <color_proc> synthesized.
+
+Synthesizing Unit <ov7670_capture>.
+    Related source file is "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v".
+        c_img_cols = 160
+        c_img_rows = 120
+        c_img_pxls = 19200
+        c_nb_line_pxls = 8
+        c_nb_img_pxls = 15
+        c_nb_buf_red = 4
+        c_nb_buf_green = 4
+        c_nb_buf_blue = 4
+        c_nb_buf = 12
+WARNING:Xst:653 - Signal <led_test<3:1>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 5-bit register for signal <cnt_pclk_max>.
+    Found 5-bit register for signal <cnt_pclk_max_freeze>.
+    Found 5-bit register for signal <cnt_clk>.
+    Found 8-bit register for signal <data_rg1>.
+    Found 8-bit register for signal <data_rg2>.
+    Found 8-bit register for signal <data_rg3>.
+    Found 15-bit register for signal <cnt_pxl>.
+    Found 15-bit register for signal <cnt_pxl_base>.
+    Found 4-bit register for signal <red>.
+    Found 4-bit register for signal <green>.
+    Found 4-bit register for signal <blue>.
+    Found 1-bit register for signal <led_test<0>>.
+    Found 1-bit register for signal <pclk_rg1>.
+    Found 1-bit register for signal <pclk_rg2>.
+    Found 1-bit register for signal <href_rg1>.
+    Found 1-bit register for signal <href_rg2>.
+    Found 1-bit register for signal <vsync_rg1>.
+    Found 1-bit register for signal <vsync_rg2>.
+    Found 1-bit register for signal <pclk_rg3>.
+    Found 1-bit register for signal <href_rg3>.
+    Found 1-bit register for signal <vsync_rg3>.
+    Found 1-bit register for signal <pclk_rise_post>.
+    Found 1-bit register for signal <cnt_byte>.
+    Found 5-bit adder for signal <cnt_clk[4]_GND_6_o_add_4_OUT> created at line 2618.
+    Found 15-bit adder for signal <cnt_pxl[14]_GND_6_o_add_17_OUT> created at line 2691.
+    Found 15-bit adder for signal <cnt_pxl_base[14]_GND_6_o_add_24_OUT> created at line 2700.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  93 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <ov7670_capture> synthesized.
+
+Synthesizing Unit <ov7670_top_ctrl>.
+    Related source file is "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v".
+INFO:Xst:3210 - "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" line 1274: Output port <finish_tx> of the instance <i_sccb> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <ov7670_top_ctrl> synthesized.
+
+Synthesizing Unit <sccb_master>.
+    Related source file is "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v".
+        c_off = 1'b0
+        c_on = 1'b1
+        c_clk_period = 10
+        c_sclk_period_div4 = 650
+        c_sclk_div4_endcnt = 65
+        c_nb_cnt_sclk_div4 = 7
+    Found 3-bit register for signal <cnt_8bits>.
+    Found 24-bit register for signal <send_rg>.
+    Found 7-bit register for signal <cnt_sclk_div4>.
+    Found 2-bit register for signal <cnt_4sclk>.
+    Found 2-bit register for signal <cnt_phases>.
+    Found 3-bit register for signal <pr_sccb_st>.
+    Found finite state machine <FSM_1> for signal <pr_sccb_st>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 16                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 7                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 7-bit adder for signal <cnt_sclk_div4[6]_GND_8_o_add_6_OUT> created at line 903.
+    Found 2-bit adder for signal <cnt_4sclk[1]_GND_8_o_add_11_OUT> created at line 921.
+    Found 2-bit adder for signal <cnt_phases[1]_GND_8_o_add_26_OUT> created at line 958.
+    Found 3-bit subtractor for signal <GND_8_o_GND_8_o_sub_20_OUT<2:0>> created at line 941.
+    Found 4x2-bit Read Only RAM for signal <_n0183>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred  38 D-type flip-flop(s).
+	inferred  25 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <sccb_master> synthesized.
+
+Synthesizing Unit <ov7670_ctrl_reg>.
+    Related source file is "E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v".
+        c_end300ms = 15000000
+        c_id_write = 7'b0100001
+        RSTCAM_ST = 0
+        WAIT_RSTCAM_ST = 1
+        WAIT_ST = 2
+        WRITE_REG_ST = 3
+        DONE_ST = 4
+    Found 6-bit register for signal <cnt_reg>.
+    Found 16-bit register for signal <reg_i>.
+    Found 3-bit register for signal <pr_ctrl_st>.
+    Found 3-bit register for signal <cnt_cam_clk>.
+    Found 24-bit register for signal <cnt300ms>.
+    Found finite state machine <FSM_2> for signal <pr_ctrl_st>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit adder for signal <cnt_cam_clk[2]_GND_10_o_add_58_OUT> created at line 2347.
+    Found 6-bit adder for signal <cnt_reg[5]_GND_10_o_add_65_OUT> created at line 2379.
+    Found 24-bit adder for signal <cnt300ms[23]_GND_10_o_add_86_OUT> created at line 2489.
+    Found 64x16-bit Read Only RAM for signal <reg_rgb444>
+    WARNING:Xst:2404 -  FFs/Latches <testmode_old<0:0>> (without init value) have a constant value of 0 in block <ov7670_ctrl_reg>.
+    WARNING:Xst:2404 -  FFs/Latches <rgbmode_old<0:0>> (without init value) have a constant value of 1 in block <ov7670_ctrl_reg>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred  49 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <ov7670_ctrl_reg> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 19200x12-bit dual-port RAM                            : 2
+ 4x2-bit single-port Read Only RAM                     : 1
+ 64x16-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 28
+ 10-bit adder                                          : 2
+ 11-bit adder                                          : 1
+ 13-bit adder                                          : 6
+ 13-bit subtractor                                     : 1
+ 14-bit adder                                          : 1
+ 15-bit adder                                          : 4
+ 2-bit adder                                           : 3
+ 24-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 3-bit subtractor                                      : 2
+ 5-bit adder                                           : 1
+ 6-bit adder                                           : 1
+ 7-bit adder                                           : 2
+ 8-bit adder                                           : 1
+ 8-bit subtractor                                      : 1
+# Registers                                            : 58
+ 1-bit register                                        : 17
+ 10-bit register                                       : 2
+ 12-bit register                                       : 2
+ 13-bit register                                       : 6
+ 14-bit register                                       : 1
+ 15-bit register                                       : 5
+ 16-bit register                                       : 1
+ 2-bit register                                        : 3
+ 24-bit register                                       : 2
+ 3-bit register                                        : 3
+ 4-bit register                                        : 3
+ 5-bit register                                        : 3
+ 6-bit register                                        : 1
+ 7-bit register                                        : 2
+ 8-bit register                                        : 6
+ 88-bit register                                       : 1
+# Comparators                                          : 46
+ 10-bit comparator greater                             : 27
+ 10-bit comparator lessequal                           : 3
+ 13-bit comparator greater                             : 4
+ 13-bit comparator lessequal                           : 6
+ 14-bit comparator lessequal                           : 1
+ 3-bit comparator lessequal                            : 1
+ 7-bit comparator lessequal                            : 2
+ 8-bit comparator lessequal                            : 2
+# Multiplexers                                         : 177
+ 1-bit 2-to-1 multiplexer                              : 27
+ 1-bit 8-to-1 multiplexer                              : 3
+ 10-bit 2-to-1 multiplexer                             : 2
+ 11-bit 2-to-1 multiplexer                             : 8
+ 11-bit 8-to-1 multiplexer                             : 1
+ 13-bit 2-to-1 multiplexer                             : 8
+ 14-bit 2-to-1 multiplexer                             : 1
+ 15-bit 2-to-1 multiplexer                             : 7
+ 2-bit 2-to-1 multiplexer                              : 4
+ 24-bit 2-to-1 multiplexer                             : 4
+ 3-bit 2-to-1 multiplexer                              : 8
+ 4-bit 2-to-1 multiplexer                              : 87
+ 5-bit 2-to-1 multiplexer                              : 2
+ 7-bit 2-to-1 multiplexer                              : 3
+ 8-bit 2-to-1 multiplexer                              : 11
+ 88-bit 2-to-1 multiplexer                             : 1
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+# FSMs                                                 : 3
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <color_proc>.
+The following registers are absorbed into counter <cnt_pxl>: 1 register on signal <cnt_pxl>.
+The following registers are absorbed into counter <col>: 1 register on signal <col>.
+The following registers are absorbed into counter <row_num>: 1 register on signal <row_num>.
+The following registers are absorbed into counter <colorpxls>: 1 register on signal <colorpxls>.
+The following registers are absorbed into counter <colorpxls_left>: 1 register on signal <colorpxls_left>.
+The following registers are absorbed into counter <colorpxls_rght>: 1 register on signal <colorpxls_rght>.
+The following registers are absorbed into counter <colorpxls_bin012>: 1 register on signal <colorpxls_bin012>.
+The following registers are absorbed into counter <colorpxls_bin567>: 1 register on signal <colorpxls_bin567>.
+The following registers are absorbed into counter <colorpxls_bin01>: 1 register on signal <colorpxls_bin01>.
+The following registers are absorbed into counter <colorpxls_bin67>: 1 register on signal <colorpxls_bin67>.
+Unit <color_proc> synthesized (advanced).
+
+Synthesizing (advanced) Unit <frame_buffer>.
+INFO:Xst:3226 - The RAM <Mram_ram> will be implemented as a BLOCK RAM, absorbing the following register(s): <doutb>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 19200-word x 12-bit                 |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <wea>           | high     |
+    |     addrA          | connected to signal <addra>         |          |
+    |     diA            | connected to signal <dina>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 19200-word x 12-bit                 |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <addrb>         |          |
+    |     doB            | connected to signal <doutb>         |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <frame_buffer> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ov7670_ctrl_reg>.
+The following registers are absorbed into counter <cnt_cam_clk>: 1 register on signal <cnt_cam_clk>.
+The following registers are absorbed into counter <cnt_reg>: 1 register on signal <cnt_reg>.
+INFO:Xst:3217 - HDL ADVISOR - Register <reg_i> currently described with an asynchronous reset, could be combined with distributed RAM <Mram_reg_rgb444> for implementation on block RAM resources if you made this reset synchronous instead.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 16-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <cnt_reg>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <reg_rgb444>    |          |
+    -----------------------------------------------------------------------
+Unit <ov7670_ctrl_reg> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sccb_master>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0183> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 2-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <cnt_4sclk>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <sccb_master> synthesized (advanced).
+
+Synthesizing (advanced) Unit <top_ov7670>.
+The following registers are absorbed into counter <cntY>: 1 register on signal <cntY>.
+Unit <top_ov7670> synthesized (advanced).
+
+Synthesizing (advanced) Unit <vga_display>.
+The following registers are absorbed into counter <frame_addr>: 1 register on signal <frame_addr>.
+Unit <vga_display> synthesized (advanced).
+
+Synthesizing (advanced) Unit <vga_sync>.
+The following registers are absorbed into counter <cnt_pxl>: 1 register on signal <cnt_pxl>.
+The following registers are absorbed into counter <cnt_line>: 1 register on signal <cnt_line>.
+Unit <vga_sync> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 19200x12-bit dual-port block RAM                      : 2
+ 4x2-bit single-port distributed Read Only RAM         : 1
+ 64x16-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 12
+ 11-bit adder                                          : 1
+ 13-bit subtractor                                     : 1
+ 15-bit adder                                          : 2
+ 2-bit adder                                           : 2
+ 24-bit adder                                          : 1
+ 3-bit subtractor                                      : 2
+ 5-bit adder                                           : 1
+ 6-bit subtractor                                      : 1
+ 7-bit adder                                           : 1
+# Counters                                             : 16
+ 10-bit up counter                                     : 2
+ 13-bit up counter                                     : 6
+ 14-bit up counter                                     : 1
+ 15-bit up counter                                     : 2
+ 2-bit up counter                                      : 1
+ 3-bit up counter                                      : 1
+ 6-bit up counter                                      : 1
+ 7-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 298
+ Flip-Flops                                            : 298
+# Comparators                                          : 46
+ 10-bit comparator greater                             : 27
+ 10-bit comparator lessequal                           : 3
+ 13-bit comparator greater                             : 4
+ 13-bit comparator lessequal                           : 6
+ 14-bit comparator lessequal                           : 1
+ 3-bit comparator lessequal                            : 1
+ 7-bit comparator lessequal                            : 2
+ 8-bit comparator lessequal                            : 2
+# Multiplexers                                         : 245
+ 1-bit 2-to-1 multiplexer                              : 106
+ 1-bit 8-to-1 multiplexer                              : 14
+ 11-bit 2-to-1 multiplexer                             : 2
+ 13-bit 2-to-1 multiplexer                             : 2
+ 15-bit 2-to-1 multiplexer                             : 4
+ 2-bit 2-to-1 multiplexer                              : 4
+ 24-bit 2-to-1 multiplexer                             : 4
+ 3-bit 2-to-1 multiplexer                              : 7
+ 4-bit 2-to-1 multiplexer                              : 87
+ 5-bit 2-to-1 multiplexer                              : 2
+ 7-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 10
+ 88-bit 2-to-1 multiplexer                             : 1
+# FSMs                                                 : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <img_proc/FSM_0> on signal <rgbfilter[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 100   | 100
+ 110   | 110
+ 001   | 001
+ 111   | 111
+ 010   | 010
+ 011   | 011
+ 101   | 101
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <controller/i_sccb/FSM_1> on signal <pr_sccb_st[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <controller/i_regs/FSM_2> on signal <pr_ctrl_st[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
+-------------------
+WARNING:Xst:1710 - FF/Latch <cnt_pxl_base_0> (without init value) has a constant value of 0 in block <ov7670_capture>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cnt_pxl_base_1> (without init value) has a constant value of 0 in block <ov7670_capture>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cnt_pxl_base_2> (without init value) has a constant value of 0 in block <ov7670_capture>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cnt_pxl_base_3> (without init value) has a constant value of 0 in block <ov7670_capture>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cnt_pxl_base_4> (without init value) has a constant value of 0 in block <ov7670_capture>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <col_rg_0> of sequential type is unconnected in block <color_proc>.
+WARNING:Xst:2677 - Node <col_rg_1> of sequential type is unconnected in block <color_proc>.
+WARNING:Xst:2677 - Node <col_rg_2> of sequential type is unconnected in block <color_proc>.
+WARNING:Xst:2677 - Node <cntY_1> of sequential type is unconnected in block <top_ov7670>.
+
+Optimizing unit <top_ov7670> ...
+
+Optimizing unit <ov7670_capture> ...
+
+Optimizing unit <vga_display> ...
+
+Optimizing unit <color_proc> ...
+
+Optimizing unit <sccb_master> ...
+
+Optimizing unit <ov7670_ctrl_reg> ...
+WARNING:Xst:2677 - Node <cnt_cam_clk_2> of sequential type is unconnected in block <ov7670_ctrl_reg>.
+WARNING:Xst:2677 - Node <capture/cnt_pclk_max_freeze_4> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_pclk_max_freeze_3> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_pclk_max_freeze_2> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_pclk_max_freeze_1> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_pclk_max_freeze_0> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_pclk_max_4> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_pclk_max_3> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_pclk_max_2> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_pclk_max_1> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_pclk_max_0> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_clk_4> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_clk_3> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_clk_2> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_clk_1> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/cnt_clk_0> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <capture/led_test_0> of sequential type is unconnected in block <top_ov7670>.
+WARNING:Xst:2677 - Node <img_proc/new_centroid> of sequential type is unconnected in block <top_ov7670>.
+INFO:Xst:2261 - The FF/Latch <i_vga/cnt_pxl_0> in Unit <top_ov7670> is equivalent to the following 3 FFs/Latches, which will be removed : <img_proc/col_1> <img_proc/cnt_pxl_1> <controller/i_regs/cnt_cam_clk_1> 
+INFO:Xst:2261 - The FF/Latch <i_vga/cnt_pxl_1> in Unit <top_ov7670> is equivalent to the following 2 FFs/Latches, which will be removed : <img_proc/col_2> <img_proc/cnt_pxl_2> 
+INFO:Xst:2261 - The FF/Latch <i_vga/cnt_pxl_2> in Unit <top_ov7670> is equivalent to the following 2 FFs/Latches, which will be removed : <img_proc/col_3> <img_proc/cnt_pxl_3> 
+INFO:Xst:2261 - The FF/Latch <i_vga/cnt_clk> in Unit <top_ov7670> is equivalent to the following 3 FFs/Latches, which will be removed : <img_proc/col_0> <img_proc/cnt_pxl_0> <controller/i_regs/cnt_cam_clk_0> 
+INFO:Xst:2261 - The FF/Latch <i_vga/cnt_pxl_3> in Unit <top_ov7670> is equivalent to the following 2 FFs/Latches, which will be removed : <img_proc/col_4> <img_proc/cnt_pxl_4> 
+INFO:Xst:2261 - The FF/Latch <i_vga/cnt_pxl_4> in Unit <top_ov7670> is equivalent to the following FF/Latch, which will be removed : <img_proc/cnt_pxl_5> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <img_proc/col_rg_3> in Unit <top_ov7670> is equivalent to the following FF/Latch, which will be removed : <img_proc/cnt_pxl_proc_3> 
+INFO:Xst:2261 - The FF/Latch <img_proc/col_rg_4> in Unit <top_ov7670> is equivalent to the following FF/Latch, which will be removed : <img_proc/cnt_pxl_proc_4> 
+Found area constraint ratio of 100 (+ 5) on block top_ov7670, actual ratio is 13.
+FlipFlop i_vga/cnt_clk has been replicated 1 time(s)
+FlipFlop i_vga/cnt_pxl_0 has been replicated 1 time(s)
+FlipFlop i_vga/cnt_pxl_1 has been replicated 1 time(s)
+FlipFlop i_vga/cnt_pxl_2 has been replicated 1 time(s)
+FlipFlop img_proc/col_rg_4 has been replicated 2 time(s)
+FlipFlop img_proc/col_rg_5 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 443
+ Flip-Flops                                            : 443
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : top_ov7670.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1349
+#      GND                         : 1
+#      INV                         : 11
+#      LUT1                        : 122
+#      LUT2                        : 165
+#      LUT3                        : 82
+#      LUT4                        : 158
+#      LUT5                        : 75
+#      LUT6                        : 284
+#      MUXCY                       : 247
+#      MUXF7                       : 12
+#      VCC                         : 1
+#      XORCY                       : 191
+# FlipFlops/Latches                : 443
+#      FD                          : 2
+#      FDC                         : 127
+#      FDCE                        : 284
+#      FDP                         : 3
+#      FDPE                        : 27
+# RAMS                             : 30
+#      RAMB16BWER                  : 30
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 40
+#      IBUF                        : 13
+#      OBUF                        : 26
+#      OBUFT                       : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             443  out of  18224     2%  
+ Number of Slice LUTs:                  897  out of   9112     9%  
+    Number used as Logic:               897  out of   9112     9%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    971
+   Number with an unused Flip Flop:     528  out of    971    54%  
+   Number with an unused LUT:            74  out of    971     7%  
+   Number of fully used LUT-FF pairs:   369  out of    971    38%  
+   Number of unique control sets:        26
+
+IO Utilization: 
+ Number of IOs:                          41
+ Number of bonded IOBs:                  41  out of    232    17%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               30  out of     32    93%  
+    Number using Block RAM only:         30
+ Number of BUFG/BUFGCTRL/BUFHCEs:         2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+cntY_0                             | BUFG                   | 472   |
+clk                                | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 6.527ns (Maximum Frequency: 153.217MHz)
+   Minimum input arrival time before clock: 7.570ns
+   Maximum output required time after clock: 15.274ns
+   Maximum combinational path delay: 8.479ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cntY_0'
+  Clock period: 6.527ns (frequency: 153.217MHz)
+  Total number of paths / destination ports: 100009 / 1724
+-------------------------------------------------------------------------
+Delay:               6.527ns (Levels of Logic = 3)
+  Source:            cam_fb/Mram_ram15 (RAM)
+  Destination:       img_proc/histogram_0_87 (FF)
+  Source Clock:      cntY_0 rising
+  Destination Clock: cntY_0 rising
+
+  Data Path: cam_fb/Mram_ram15 to img_proc/histogram_0_87
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16BWER:CLKB->DOB3    2   1.850   0.981  cam_fb/Mram_ram15 (N51)
+     LUT6:I0->O            1   0.203   0.000  img_proc/Mmux_color_threshold11_G (N198)
+     MUXF7:I1->O          17   0.140   1.028  img_proc/Mmux_color_threshold11 (img_proc/color_threshold)
+     LUT3:I2->O           88   0.205   1.798  img_proc/_n0382_inv1 (img_proc/_n0382_inv)
+     FDCE:CE                   0.322          img_proc/histogram_0_0
+    ----------------------------------------
+    Total                      6.527ns (2.720ns logic, 3.807ns route)
+                                       (41.7% logic, 58.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.913ns (frequency: 522.821MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.913ns (Levels of Logic = 1)
+  Source:            cntY_0 (FF)
+  Destination:       cntY_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cntY_0 to cntY_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.447   0.579  cntY_0 (cntY_0)
+     INV:I->O              1   0.206   0.579  Mcount_cntY_xor<0>11_INV_0 (Result<0>)
+     FDC:D                     0.102          cntY_0
+    ----------------------------------------
+    Total                      1.913ns (0.755ns logic, 1.158ns route)
+                                       (39.5% logic, 60.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cntY_0'
+  Total number of paths / destination ports: 560 / 560
+-------------------------------------------------------------------------
+Offset:              7.570ns (Levels of Logic = 4)
+  Source:            rst (PAD)
+  Destination:       controller/i_sccb/send_rg_23 (FF)
+  Destination Clock: cntY_0 rising
+
+  Data Path: rst to controller/i_sccb/send_rg_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           445   1.222   2.332  rst_IBUF (rst_IBUF)
+     LUT4:I0->O            2   0.203   0.617  controller/i_sccb/Mmux_ready11 (controller/sccb_ready)
+     LUT5:I4->O           32   0.205   1.292  controller/i_regs/start_tx_aux1 (controller/start_tx)
+     LUT6:I5->O           24   0.205   1.172  controller/i_sccb/_n0158_inv (controller/i_sccb/_n0158_inv)
+     FDPE:CE                   0.322          controller/i_sccb/send_rg_0
+    ----------------------------------------
+    Total                      7.570ns (2.157ns logic, 5.413ns route)
+                                       (28.5% logic, 71.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.736ns (Levels of Logic = 1)
+  Source:            rst (PAD)
+  Destination:       cntY_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to cntY_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           445   1.222   2.084  rst_IBUF (rst_IBUF)
+     FDC:CLR                   0.430          cntY_0
+    ----------------------------------------
+    Total                      3.736ns (1.652ns logic, 2.084ns route)
+                                       (44.2% logic, 55.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'cntY_0'
+  Total number of paths / destination ports: 3441 / 26
+-------------------------------------------------------------------------
+Offset:              15.274ns (Levels of Logic = 13)
+  Source:            i_vga/cnt_pxl_4 (FF)
+  Destination:       vga_blue<3> (PAD)
+  Source Clock:      cntY_0 rising
+
+  Data Path: i_vga/cnt_pxl_4 to vga_blue<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            35   0.447   1.335  i_vga/cnt_pxl_4 (i_vga/cnt_pxl_4)
+     LUT3:I2->O            1   0.205   0.827  I_ov_display/col[9]_GND_3_o_LessThan_61_o1_SW0 (N129)
+     LUT6:I2->O            1   0.203   0.808  I_ov_display/col[9]_GND_3_o_LessThan_61_o1 (I_ov_display/col[9]_GND_3_o_LessThan_61_o)
+     LUT3:I0->O            2   0.205   0.617  I_ov_display/GND_3_o_row[9]_AND_8_o143 (I_ov_display/GND_3_o_row[9]_AND_8_o143)
+     LUT6:I5->O            1   0.205   0.684  I_ov_display/GND_3_o_row[9]_AND_8_o144_SW0 (N151)
+     LUT6:I4->O            2   0.203   0.721  I_ov_display/GND_3_o_row[9]_AND_8_o144 (I_ov_display/GND_3_o_row[9]_AND_8_o14)
+     LUT5:I3->O            1   0.203   0.684  I_ov_display/GND_3_o_row[9]_AND_8_o246_SW0_SW0 (N171)
+     LUT6:I4->O            1   0.203   0.580  I_ov_display/GND_3_o_row[9]_AND_8_o246_SW1 (N173)
+     LUT6:I5->O            2   0.205   0.721  I_ov_display/GND_3_o_row[9]_AND_8_o246 (I_ov_display/GND_3_o_row[9]_AND_8_o24)
+     LUT3:I1->O            2   0.203   0.864  I_ov_display/GND_3_o_row[9]_AND_8_o211 (I_ov_display/GND_3_o_row[9]_AND_8_o_mmx_out1)
+     LUT6:I2->O            1   0.203   0.808  I_ov_display/Mmux_vga_blue63 (I_ov_display/Mmux_vga_blue62)
+     LUT4:I1->O            1   0.205   0.580  I_ov_display/Mmux_vga_blue64_SW0 (N155)
+     LUT6:I5->O            1   0.205   0.579  I_ov_display/Mmux_vga_blue64 (vga_blue_3_OBUF)
+     OBUF:I->O                 2.571          vga_blue_3_OBUF (vga_blue<3>)
+    ----------------------------------------
+    Total                     15.274ns (5.466ns logic, 9.808ns route)
+                                       (35.8% logic, 64.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Delay:               8.479ns (Levels of Logic = 4)
+  Source:            rst (PAD)
+  Destination:       vga_red<3> (PAD)
+
+  Data Path: rst to vga_red<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           445   1.222   2.429  rst_IBUF (rst_IBUF)
+     LUT6:I1->O           12   0.203   1.273  i_vga/visible (vga_visible)
+     LUT6:I0->O            1   0.203   0.579  I_ov_display/Mmux_vga_green21 (vga_green_1_OBUF)
+     OBUF:I->O                 2.571          vga_green_1_OBUF (vga_green<1>)
+    ----------------------------------------
+    Total                      8.479ns (4.199ns logic, 4.280ns route)
+                                       (49.5% logic, 50.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.913|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cntY_0
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+cntY_0         |    6.527|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.33 secs
+ 
+--> 
+
+Total memory usage is 232628 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   58 (   0 filtered)
+Number of infos    :   16 (   0 filtered)
+
