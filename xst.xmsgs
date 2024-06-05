@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 185: Port <arg fmt="%s" index="1">new_centroid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 217: Port <arg fmt="%s" index="1">dataout_test</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 103: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 363: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 408: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 565: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 3125: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 3329: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">12</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2615: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2618: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2665: Assignment to <arg fmt="%s" index="1">pclk_fall</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2666: Assignment to <arg fmt="%s" index="1">pclk_rise_prev</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2691: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2692: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2700: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2701: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2671: Assignment to <arg fmt="%s" index="1">cnt_line_totpxls</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 1274: Port <arg fmt="%s" index="1">finish_tx</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 903: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 921: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 941: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 958: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2347: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2379: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v" Line 2489: Result of <arg fmt="%d" index="1">25</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">24</arg>-bit target.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v</arg>&quot; line <arg fmt="%s" index="2">185</arg>: Output port &lt;<arg fmt="%s" index="3">new_centroid</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">img_proc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v</arg>&quot; line <arg fmt="%s" index="2">217</arg>: Output port &lt;<arg fmt="%s" index="3">dataout_test</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">capture</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v</arg>&quot; line <arg fmt="%s" index="2">217</arg>: Output port &lt;<arg fmt="%s" index="3">led_test</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">capture</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">hsync</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">vsync</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">ram</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">led_test&lt;3:1&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\UPDATED_NEXUS4_CAMERA\top_ov7670.v</arg>&quot; line <arg fmt="%s" index="2">1274</arg>: Output port &lt;<arg fmt="%s" index="3">finish_tx</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_sccb</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">testmode_old</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">ov7670_ctrl_reg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">rgbmode_old</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">1</arg> in block &lt;<arg fmt="%s" index="5">ov7670_ctrl_reg</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3217" delta="old" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">reg_i</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_reg_rgb444</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0183</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">cnt_pxl_base_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ov7670_capture</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cnt_pxl_base_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ov7670_capture</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cnt_pxl_base_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ov7670_capture</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cnt_pxl_base_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ov7670_capture</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cnt_pxl_base_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ov7670_capture</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">col_rg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">color_proc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">col_rg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">color_proc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">col_rg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">color_proc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cntY_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt_cam_clk_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ov7670_ctrl_reg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_pclk_max_freeze_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_pclk_max_freeze_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_pclk_max_freeze_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_pclk_max_freeze_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_pclk_max_freeze_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_pclk_max_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_pclk_max_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_pclk_max_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_pclk_max_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_pclk_max_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_clk_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_clk_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_clk_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_clk_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/cnt_clk_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">capture/led_test_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">img_proc/new_centroid</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">i_vga/cnt_pxl_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;img_proc/col_1&gt; &lt;img_proc/cnt_pxl_1&gt; &lt;controller/i_regs/cnt_cam_clk_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">i_vga/cnt_pxl_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;img_proc/col_2&gt; &lt;img_proc/cnt_pxl_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">i_vga/cnt_pxl_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;img_proc/col_3&gt; &lt;img_proc/cnt_pxl_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">i_vga/cnt_clk</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;img_proc/col_0&gt; &lt;img_proc/cnt_pxl_0&gt; &lt;controller/i_regs/cnt_cam_clk_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">i_vga/cnt_pxl_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;img_proc/col_4&gt; &lt;img_proc/cnt_pxl_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">i_vga/cnt_pxl_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;img_proc/cnt_pxl_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">img_proc/col_rg_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;img_proc/cnt_pxl_proc_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">img_proc/col_rg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top_ov7670</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;img_proc/cnt_pxl_proc_4&gt; </arg>
+</msg>
+
+</messages>
+
